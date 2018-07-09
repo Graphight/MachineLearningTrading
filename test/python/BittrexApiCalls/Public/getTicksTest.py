@@ -4,7 +4,7 @@ import requests
 import decimal
 
 # Setup
-market_name = 'BTC-ETH'
+market_name = 'USD-BTC'
 period = 'day'
 url = 'https://bittrex.com/api/v2.0/pub/market/getTicks?marketName={}&tickInterval={}'.format(market_name, period)
 

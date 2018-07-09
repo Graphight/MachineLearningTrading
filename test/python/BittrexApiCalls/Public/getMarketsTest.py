@@ -32,7 +32,6 @@ response = requests.get(url)
 
 # Refine
 marketJson = response.json()
-print(marketJson)
 markets = dict()
 extract_market_data(marketJson)
 
