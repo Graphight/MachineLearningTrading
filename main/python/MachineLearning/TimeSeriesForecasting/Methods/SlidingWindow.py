@@ -2,9 +2,10 @@
 # Import Libraries
 import numpy
 
+from main.python.MachineLearning.TimeSeriesForecasting.Methods.Stationarity import test_stationarity, movingAverage, \
+    exponentialWeighted
+
 from pandas import read_csv
-from pandas import datetime
-import matplotlib.pylab as pyplot
 
 from matplotlib.pylab import rcParams
 rcParams["figure.figsize"] = 15, 6
@@ -12,8 +13,8 @@ rcParams["figure.figsize"] = 15, 6
 
 def method_slidingWindow(window_size, file_name):
     data = read_csv(file_name, parse_dates=["TimeStamp"], index_col="TimeStamp")
-    ts = data["ClosingPrice"]
-    print(ts.head(10))
+    # test_stationarity(data, window_size)
+    exponentialWeighted(data, window_size)
 
     # data = series.values
     # front = 0

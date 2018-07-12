@@ -17,8 +17,8 @@ collectAndWriteToCsv(market_name, trade_period, file_name)
 
 
 # Collect and prepare
-method_multipleSplits(3, file_name)
-# method_slidingWindow(200, file_name)
+# method_multipleSplits(3, file_name)
+method_slidingWindow(100, file_name)
 
 
 # Display
