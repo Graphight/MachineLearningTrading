@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b2971a84-9bed-4557-8528-362c4f4985a8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/main/python/MachineLearning/TimeSeriesForecasting/Methods/Forecasting.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/python/MachineLearning/TimeSeriesForecasting/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/python/MachineLearning/TimeSeriesForecasting/Main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/python/MachineLearning/TimeSeriesForecasting/MarketData.csv" beforeDir="false" afterPath="$PROJECT_DIR$/main/python/MachineLearning/TimeSeriesForecasting/MarketData.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/python/MachineLearning/TimeSeriesForecasting/Methods/SlidingWindow.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/python/MachineLearning/TimeSeriesForecasting/Methods/SlidingWindow.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/python/MachineLearning/TimeSeriesForecasting/Methods/Stationarity.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/python/MachineLearning/TimeSeriesForecasting/Methods/Stationarity.py" afterDir="false" />
-    </list>
+    <list default="true" id="b2971a84-9bed-4557-8528-362c4f4985a8" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,8 +57,8 @@
       <file leaf-file-name="Stationarity.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main/python/MachineLearning/TimeSeriesForecasting/Methods/Stationarity.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="84" column="13" lean-forward="true" selection-start-line="84" selection-start-column="13" selection-end-line="84" selection-end-column="13" />
+            <state relative-caret-position="374">
+              <caret line="76" column="19" lean-forward="true" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
               <folding>
                 <element signature="e#20#39#0" expanded="true" />
               </folding>
@@ -380,13 +373,13 @@
     <frame x="0" y="22" width="1280" height="1418" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49936947" weight="0.27958697" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49936947" visible="true" weight="0.27958697" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49960285" weight="0.329296" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5019857" side_tool="true" weight="0.34065104" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329296" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49960285" weight="0.329296" />
       <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.49960285" weight="0.329296" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4980143" visible="true" weight="0.34065104" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4980143" visible="true" weight="0.34065104" />
       <window_info id="Structure" order="1" sideWeight="0.5006305" side_tool="true" weight="0.27958697" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49960285" weight="0.329296" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -661,16 +654,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/python/MachineLearning/TimeSeriesForecasting/Main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-          <folding>
-            <element signature="e#20#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/python/MachineLearning/TimeSeriesForecasting/Methods/Forecasting.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="767">
@@ -681,10 +664,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/main/python/MachineLearning/TimeSeriesForecasting/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <folding>
+            <element signature="e#20#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main/python/MachineLearning/TimeSeriesForecasting/Methods/Stationarity.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="84" column="13" lean-forward="true" selection-start-line="84" selection-start-column="13" selection-end-line="84" selection-end-column="13" />
+        <state relative-caret-position="374">
+          <caret line="76" column="19" lean-forward="true" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
           <folding>
             <element signature="e#20#39#0" expanded="true" />
           </folding>

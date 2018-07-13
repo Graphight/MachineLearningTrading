@@ -78,7 +78,7 @@ def model_ma(ts_data, window_size, should_plot=True):
 def model_combined(ts_data, window_size, should_plot=True):
     ts_log = np.log(ts_data)
     ts_log_diff = differencing_log(ts_data, window_size, False, False)
-    model = ARIMA(ts_log, order=(4, 1, 4))
+    model = ARIMA(ts_log, order=(1, 1, 1))
     results_ARIMA = model.fit(disp=0)
 
     if should_plot:
