@@ -2,8 +2,10 @@
 # Import Libraries
 import numpy
 
+from main.python.MachineLearning.TimeSeriesForecasting.Methods.Forecasting import function_partial_autocorrelation, \
+    function_autocorrelation
 from main.python.MachineLearning.TimeSeriesForecasting.Methods.Stationarity import test_stationarity, movingAverage, \
-    exponentialWeighted
+    exponentialWeighted, decomposing, differencing_log
 
 from pandas import read_csv
 
@@ -13,8 +15,6 @@ rcParams["figure.figsize"] = 15, 6
 
 def method_slidingWindow(window_size, file_name):
     data = read_csv(file_name, parse_dates=["TimeStamp"], index_col="TimeStamp")
-    # test_stationarity(data, window_size)
-    exponentialWeighted(data, window_size)
 
     # data = series.values
     # front = 0
