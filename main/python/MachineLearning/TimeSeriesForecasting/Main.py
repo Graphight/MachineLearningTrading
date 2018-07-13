@@ -14,7 +14,6 @@ from matplotlib import pyplot
 
 
 # Setup
-
 market_name = "ETH-LTC"
 trade_period = "day"
 file_name = "MarketData.csv"
@@ -29,7 +28,7 @@ data = read_csv(file_name, parse_dates=["TimeStamp"], index_col="TimeStamp")
 # method_slidingWindow(100, file_name)
 
 # ===== Stationarity =====
-# test_stationarity(data, window_size)
+test_stationarity(data, window_size)
 # movingAverage(data, window_size)
 # exponentialWeighted(data, window_size)
 # ts_log_diff = differencing_log(data, window_size)
@@ -42,7 +41,7 @@ data = read_csv(file_name, parse_dates=["TimeStamp"], index_col="TimeStamp")
 # model_ar(data, window_size)
 # model_ma(data, window_size)
 # model_combined(data, window_size)
-predictions(data, window_size)
+# predictions(data, window_size)
 # predictions_better(data, window_size)
 
 # Display

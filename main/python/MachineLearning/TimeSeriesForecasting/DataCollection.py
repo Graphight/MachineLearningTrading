@@ -22,4 +22,4 @@ def collectAndWriteToCsv(marketName, period, fileName):
         writer.writeheader()
 
         for tick in response.json()["result"]:
-            writer.writerow({"TimeStamp": tick["T"], "ClosingPrice": Decimal(tick["C"]).quantize(decimalPlaces)})
+            writer.writerow({"TimeStamp": tick["T"][0:10], "ClosingPrice": Decimal(tick["C"]).quantize(decimalPlaces)})
