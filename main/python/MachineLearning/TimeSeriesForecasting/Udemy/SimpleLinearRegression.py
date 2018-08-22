@@ -1,4 +1,7 @@
 
+# Clearly this method would not work for time series evaluation
+# This was just here to see more how it would handle the situation
+
 # Import Libraries
 import numpy as np
 import matplotlib.pylab as pyplot

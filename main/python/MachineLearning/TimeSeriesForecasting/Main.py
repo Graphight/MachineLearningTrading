@@ -40,9 +40,9 @@ test_stationarity(data, window_size)
 # function_partial_autocorrelation(data, window_size)
 # model_ar(data, window_size)
 # model_ma(data, window_size)
-# model_combined(data, window_size)
+model_combined(data, window_size)
 # predictions(data, window_size)
-# predictions_better(data, window_size)
+predictions_better(data, window_size)
 
 # Display
 # pyplot.plot(data)
