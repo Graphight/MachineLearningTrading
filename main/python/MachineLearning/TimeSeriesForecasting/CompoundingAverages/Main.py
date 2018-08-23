@@ -1,61 +1,36 @@
 # Import Libraries
-from requests import get
-from csv import DictWriter
-from decimal import Decimal
+from main.python.MachineLearning.TimeSeriesForecasting.CompoundingAverages.SupportFunctions import extract_data, collect_and_write_to_csv, extract_plot_data
+from main.python.MachineLearning.TimeSeriesForecasting.CompoundingAverages.CompoundingAveragesModel import model
+
+from matplotlib import pyplot
 
 
-def collectAndWriteToCsv(marketName, period, fileName):
+# ===== Setup =====
+currency_from = "NZD"
+currency_to = "USD"
+interval = "1min"
+api_key = "GRYVIVFOM0RKLZXP"
 
-    # Setup
-    url = 'https://bittrex.com/api/v2.0/pub/market/getTicks?marketName={}&tickInterval={}'.format(marketName, period)
-    decimalPlaces = Decimal(10) ** -8
+file_name = "MarketData-{}-{}-{}-interval.csv".format(currency_from, currency_to, interval)
+collect_and_write_to_csv(currency_from, currency_to, interval, api_key, file_name)
 
-    # Collect
-    response = get(url)
-    print("Response status code: {}".format(response.status_code))
+# ===== Collect and prepare =====
+data = extract_data(file_name)
+timestamps, closing_prices = extract_plot_data(data)
 
+# ===== Forecasting =====
+predictions, outcomes = model(data)
 
-    # Write to file
-    with open(fileName, "w", newline="") as csvfile:
-        fieldNames = ["TimeStamp", "ClosingPrice"]
-        writer = DictWriter(csvfile, fieldnames=fieldNames)
-        writer.writeheader()
+# ===== Display =====
+# Graph the actual data
+pyplot.figure(0)
+pyplot.plot(timestamps, closing_prices)
 
-        for tick in response.json()["result"]:
-            writer.writerow({"TimeStamp": tick["T"][0:10], "ClosingPrice": Decimal(tick["C"]).quantize(decimalPlaces)})
+# Graph predictions vs outcomes
+pyplot.figure(1)
+index = range(len(predictions))
+pyplot.plot(index, outcomes)
+pyplot.plot(index, predictions)
+pyplot.legend(["Outcomes", "Predictions"], loc='upper left')
 
-
-def main():
-    # Setup
-    market_name = "ETH-LTC"
-    trade_period = "second"
-    file_name = "MarketData-Seconds-{}.csv".format(market_name)
-    window_size = 100
-    print("Recent closing prices for {} exchange".format(market_name))
-    collectAndWriteToCsv(market_name, trade_period, file_name)
-
-    # Collect and prepare
-    data = read_csv(file_name, parse_dates=["TimeStamp"], index_col="TimeStamp")
-    # method_multipleSplits(3, file_name)
-    # method_slidingWindow(100, file_name)
-
-    # ===== Stationarity =====
-    test_stationarity(data, window_size)
-    # movingAverage(data, window_size)
-    # exponentialWeighted(data, window_size)
-    # ts_log_diff = differencing_log(data, window_size)
-    # ts_raw_diff = differencing_raw(data, window_size)
-    # ts_log_decompose = decomposing(data, window_size)
-
-    # ===== Forecasting =====
-    # function_autocorrelation(data, window_size)
-    # function_partial_autocorrelation(data, window_size)
-    # model_ar(data, window_size)
-    # model_ma(data, window_size)
-    model_combined(data, window_size)
-    # predictions(data, window_size)
-    predictions_better(data, window_size)
-
-    # Display
-    # pyplot.plot(data)
-    pyplot.show()
+pyplot.show()
