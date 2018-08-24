@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2971a84-9bed-4557-8528-362c4f4985a8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/tomm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/python/MachineLearning/TimeSeriesForecasting/CompoundingAverages/CompoundingAveragesModel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/python/MachineLearning/TimeSeriesForecasting/CompoundingAverages/SupportFunctions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/python/MachineLearning/TimeSeriesForecasting/CompoundingAverages/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/python/MachineLearning/TimeSeriesForecasting/CompoundingAverages/Main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/python/MachineLearning/TimeSeriesForecasting/CompoundingAverages/MarketData-NZD-USD-1min-interval.csv" beforeDir="false" afterPath="$PROJECT_DIR$/main/python/MachineLearning/TimeSeriesForecasting/CompoundingAverages/MarketData-NZD-USD-1min-interval.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/python/MachineLearning/TimeSeriesForecasting/CompoundingAverages/SupportFunctions.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/python/MachineLearning/TimeSeriesForecasting/CompoundingAverages/SupportFunctions.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/python/MachineLearning/TimeSeriesForecasting/CompoundingAverages/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="540">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
               <folding>
                 <element signature="e#19#175#0" expanded="true" />
               </folding>
@@ -48,37 +45,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MarketData-NZD-USD-60min-interval.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/python/MachineLearning/TimeSeriesForecasting/CompoundingAverages/MarketData-NZD-USD-60min-interval.csv">
+      <file leaf-file-name="SupportFunctions.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main/python/MachineLearning/TimeSeriesForecasting/CompoundingAverages/SupportFunctions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4682" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MarketData-NZD-USD-5min-interval.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/python/MachineLearning/TimeSeriesForecasting/CompoundingAverages/MarketData-NZD-USD-5min-interval.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-6572" />
+            <state relative-caret-position="345">
+              <caret line="58" column="29" lean-forward="true" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
+              <folding>
+                <element signature="e#19#43#0" expanded="true" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="MarketData-NZD-USD-1min-interval.csv" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/python/MachineLearning/TimeSeriesForecasting/CompoundingAverages/MarketData-NZD-USD-1min-interval.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-19502">
-              <caret line="78" column="73" lean-forward="true" selection-start-line="78" selection-start-column="73" selection-end-line="78" selection-end-column="73" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SupportFunctions.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/python/MachineLearning/TimeSeriesForecasting/CompoundingAverages/SupportFunctions.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="861">
-              <caret line="93" column="29" selection-start-line="93" selection-start-column="29" selection-end-line="93" selection-end-column="29" />
-              <folding>
-                <element signature="e#19#43#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="4403">
+              <caret line="1411" column="75" lean-forward="true" selection-start-line="1411" selection-start-column="75" selection-end-line="1411" selection-end-column="75" />
             </state>
           </provider>
         </entry>
@@ -154,8 +137,8 @@
         <option value="$PROJECT_DIR$/main/python/MachineLearning/TimeSeriesForecasting/CompoundingAverages/MarketData-NZD-USD-1min-interval.csv" />
         <option value="$PROJECT_DIR$/main/python/MachineLearning/TimeSeriesForecasting/CompoundingAverages/running_data.txt" />
         <option value="$PROJECT_DIR$/main/python/MachineLearning/TimeSeriesForecasting/CompoundingAverages/CompoundingAveragesModel.py" />
-        <option value="$PROJECT_DIR$/main/python/MachineLearning/TimeSeriesForecasting/CompoundingAverages/SupportFunctions.py" />
         <option value="$PROJECT_DIR$/main/python/MachineLearning/TimeSeriesForecasting/CompoundingAverages/Main.py" />
+        <option value="$PROJECT_DIR$/main/python/MachineLearning/TimeSeriesForecasting/CompoundingAverages/SupportFunctions.py" />
       </list>
     </option>
   </component>
@@ -467,7 +450,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329296" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329296" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.1990916" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.1990916" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.329296" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -843,14 +826,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/python/MachineLearning/TimeSeriesForecasting/CompoundingAverages/SupportFunctions.py">
+    <entry file="file://$PROJECT_DIR$/main/python/MachineLearning/TimeSeriesForecasting/CompoundingAverages/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="861">
-          <caret line="93" column="29" selection-start-line="93" selection-start-column="29" selection-end-line="93" selection-end-column="29" />
+        <state relative-caret-position="540">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
           <folding>
-            <element signature="e#19#43#0" expanded="true" />
+            <element signature="e#19#175#0" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/python/MachineLearning/TimeSeriesForecasting/CompoundingAverages/MarketData-NZD-USD-5min-interval.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6572" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/python/MachineLearning/TimeSeriesForecasting/CompoundingAverages/CompoundingAveragesModel.py">
@@ -860,29 +848,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/python/MachineLearning/TimeSeriesForecasting/CompoundingAverages/MarketData-NZD-USD-1min-interval.csv">
+    <entry file="file://$PROJECT_DIR$/main/python/MachineLearning/TimeSeriesForecasting/CompoundingAverages/MarketData-NZD-USD-60min-interval.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19502">
-          <caret line="78" column="73" lean-forward="true" selection-start-line="78" selection-start-column="73" selection-end-line="78" selection-end-column="73" />
+        <state relative-caret-position="750">
+          <caret line="50" column="80" lean-forward="true" selection-start-line="50" selection-start-column="80" selection-end-line="50" selection-end-column="80" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/python/MachineLearning/TimeSeriesForecasting/CompoundingAverages/MarketData-NZD-USD-5min-interval.csv">
+    <entry file="file://$PROJECT_DIR$/main/python/MachineLearning/TimeSeriesForecasting/CompoundingAverages/MarketData-NZD-USD-1min-interval.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6572" />
+        <state relative-caret-position="4403">
+          <caret line="1411" column="75" lean-forward="true" selection-start-line="1411" selection-start-column="75" selection-end-line="1411" selection-end-column="75" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/python/MachineLearning/TimeSeriesForecasting/CompoundingAverages/MarketData-NZD-USD-60min-interval.csv">
+    <entry file="file://$PROJECT_DIR$/main/python/MachineLearning/TimeSeriesForecasting/CompoundingAverages/SupportFunctions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4682" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/python/MachineLearning/TimeSeriesForecasting/CompoundingAverages/Main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="345">
+          <caret line="58" column="29" lean-forward="true" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
           <folding>
-            <element signature="e#19#175#0" expanded="true" />
+            <element signature="e#19#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
