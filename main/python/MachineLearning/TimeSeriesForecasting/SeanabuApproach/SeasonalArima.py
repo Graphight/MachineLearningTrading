@@ -10,7 +10,7 @@ from statsmodels.tsa.stattools import acf
 from statsmodels.tsa.stattools import pacf
 from statsmodels.tsa.seasonal import seasonal_decompose
 
-from main.python.MachineLearning.TimeSeriesForecasting.Seanabu.supportMethods import test_stationarity
+from main.python.MachineLearning.TimeSeriesForecasting.SeanabuApproach.supportMethods import test_stationarity
 
 
 # Collect Data

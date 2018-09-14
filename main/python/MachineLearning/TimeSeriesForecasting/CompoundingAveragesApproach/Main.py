@@ -1,6 +1,6 @@
 # Import Libraries
-from main.python.MachineLearning.TimeSeriesForecasting.CompoundingAverages.SupportFunctions import extract_data, collect_and_write_to_csv, extract_plot_data
-from main.python.MachineLearning.TimeSeriesForecasting.CompoundingAverages.CompoundingAveragesModel import model
+from main.python.MachineLearning.TimeSeriesForecasting.CompoundingAveragesApproach.SupportFunctions import extract_data, collect_and_write_to_csv, extract_plot_data
+from main.python.MachineLearning.TimeSeriesForecasting.CompoundingAveragesApproach.CompoundingAveragesModel import model
 
 from matplotlib import pyplot
 
@@ -23,14 +23,14 @@ predictions, outcomes = model(data)
 
 # ===== Display =====
 # Graph the actual data
-# pyplot.figure(0)
-# pyplot.plot(timestamps, closing_prices)
+pyplot.figure(0)
+pyplot.plot(timestamps, closing_prices)
 
 # Graph predictions vs outcomes
-# pyplot.figure(1)
-# index = range(len(predictions))
-# pyplot.plot(index, outcomes)
-# pyplot.plot(index, predictions)
-# pyplot.legend(["Outcomes", "Predictions"], loc='upper left')
+pyplot.figure(1)
+index = range(len(predictions))
+pyplot.plot(index, outcomes)
+pyplot.plot(index, predictions)
+pyplot.legend(["Outcomes", "Predictions"], loc='upper left')
 
-# pyplot.show()
+pyplot.show()
