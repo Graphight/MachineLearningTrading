@@ -3,9 +3,6 @@ from requests import get
 from csv import DictWriter
 from decimal import Decimal
 import csv
-from matplotlib.pylab import rcParams
-
-rcParams["figure.figsize"] = 15, 6
 
 
 def collect_and_write_to_csv(currency_from, currency_to, interval, api_key, file_name):
