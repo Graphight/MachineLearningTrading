@@ -8,7 +8,7 @@ from matplotlib import pyplot
 # ===== Setup =====
 currency_from = "NZD"
 currency_to = "USD"
-interval = "1min"
+interval = "60min"
 api_key = "GRYVIVFOM0RKLZXP"
 
 file_name = "MarketData-{}-{}-{}-interval.csv".format(currency_from, currency_to, interval)
@@ -19,7 +19,7 @@ data = extract_data(file_name)
 timestamps, closing_prices = extract_plot_data(data)
 
 # ===== Forecasting =====
-predictions, outcomes = model(data)
+# predictions, outcomes = model(data)
 
 # ===== Display =====
 # Graph the actual data
@@ -27,10 +27,10 @@ pyplot.figure(0)
 pyplot.plot(timestamps, closing_prices)
 
 # Graph predictions vs outcomes
-pyplot.figure(1)
-index = range(len(predictions))
-pyplot.plot(index, outcomes)
-pyplot.plot(index, predictions)
-pyplot.legend(["Outcomes", "Predictions"], loc='upper left')
+# pyplot.figure(1)
+# index = range(len(predictions))
+# pyplot.plot(index, outcomes)
+# pyplot.plot(index, predictions)
+# pyplot.legend(["Outcomes", "Predictions"], loc='upper left')
 
 pyplot.show()
