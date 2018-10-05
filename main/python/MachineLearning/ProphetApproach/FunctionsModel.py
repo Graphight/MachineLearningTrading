@@ -1,6 +1,6 @@
 
 import itertools
-import statsmodels as sm
+import statsmodels.api as sm
 
 
 def determine_best_p_d_q_variables(sample_data):
@@ -19,15 +19,14 @@ def determine_best_p_d_q_variables(sample_data):
                 results = model.fit(disp=False)
                 options[results.aic] = [param, param_seasonal]
                 # print('ARIMA{}x{}12 - AIC:{}'.format(param, param_seasonal, results.aic))
-            except:
-                print("Darn")
-                continue
+            except Exception as e:
+                print(e)
     # Determine the best formation to use
     best = min(options.keys())
     print("\nThe lowest scoring item returned < {} > which had the params < {} >\n".format(best, options[best]))
     # Use this configuration
     order = options[best][0]
-    seasonal_order = options[best][0]
+    seasonal_order = options[best][1]
     model = sm.tsa.statespace.SARIMAX(sample_data,
                                       order=order,
                                       seasonal_order=seasonal_order,
